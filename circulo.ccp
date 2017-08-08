@@ -1,4 +1,3 @@
-
 Circulo::Circulo()
 {
 	this->radio = 0.0;
