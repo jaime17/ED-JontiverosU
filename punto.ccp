@@ -9,14 +9,14 @@ punto::punto(int coorx, int coory)
 {
 	this->coorx = coorx;
 	this->coory = coory;
-	this->coorz = NULL;
+	this->coorz = 0;
 	this->dim = "tiene 2 dimensiones";
 }
 punto::punto()
 {
-	this->coorx = NULL;
-	this->coory = NULL;
-	this->coorz = NULL;
+	this->coorx = 0;
+	this->coory = 0;
+	this->coorz = 0;
 	this->dim = "No tiene dimensiones";
 }
 void punto::setx(int coorx)
